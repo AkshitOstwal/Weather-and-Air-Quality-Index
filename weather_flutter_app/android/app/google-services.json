@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "970102042631",
+    "firebase_url": "https://nasa-space-app-2019.firebaseio.com",
+    "project_id": "nasa-space-app-2019",
+    "storage_bucket": "nasa-space-app-2019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970102042631:android:c9368ed41b1ba6b099baa2",
+        "android_client_info": {
+          "package_name": "com.example.nasa_app_challenge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970102042631-37k8i0g2rvgjpspmjddgvtan51rg0l3u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY6LMQDJ6846mP1NQzLIsXuKxTBm0OLpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970102042631-37k8i0g2rvgjpspmjddgvtan51rg0l3u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
