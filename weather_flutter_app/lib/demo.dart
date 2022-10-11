@@ -449,3 +449,11 @@ class LinearSales {
 // d887b7df81f642eaad385044ecf76fc9
 // 1f3dadee7d044df6ba0b8ae299ae22ed
 // 146566e211ed444185aad3330c0fb6e4
+
+class ChartValue {
+  final String label;
+  final double val;
+  final int num;
+
+  ChartValue(this.num, this.label, this.val);
+}
