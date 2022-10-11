@@ -482,8 +482,8 @@ class _HomePageState extends State<HomePage> {
                           : BoxDecoration(),
                       child: Container(
                         color: Colors.purpleAccent,
-                        height: 80,
-                        width: 80,
+                        height: 81,
+                        width: 81,
                         child: Center(
                             child: Text(
                           'Extreme \n 11.0+',
@@ -630,8 +630,8 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        height: 700,
-        margin: EdgeInsets.only(top: 40),
+        height: 720,
+        margin: EdgeInsets.only(top: 42),
         child: SingleChildScrollView(
           child: Column(
             children: <Widget>[
@@ -648,7 +648,7 @@ class _HomePageState extends State<HomePage> {
                 onPressed: () {},
               ),
               SizedBox(
-                height: 10,
+                height: 12,
               ),
               _earth(),
               Container(
@@ -657,11 +657,11 @@ class _HomePageState extends State<HomePage> {
                 width: 200,
               ),
               SizedBox(
-                height: 10,
+                height: 12,
               ),
               _details(),
               SizedBox(
-                height: 10,
+                height: 12,
               ),
               RaisedButton(
                 child: Text('Get AQI'),
