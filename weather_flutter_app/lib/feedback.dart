@@ -172,7 +172,7 @@ class _FeedbackPageState extends State<FeedbackPage> {
                 ),
               ),
               SizedBox(
-                height: 15,
+                height: 14,
               ),
               Container(
                 color: Colors.white30,
@@ -180,18 +180,18 @@ class _FeedbackPageState extends State<FeedbackPage> {
                 width: 200,
               ),
               SizedBox(
-                height: 15,
+                height: 14,
               ),
               Text('How are you feeling?',
                   style: TextStyle(
-                    fontSize: 20,
+                    fontSize: 24,
                     fontWeight: FontWeight.bold,
                   )),
               Wrap(
                 children: _buildChoiceList(),
               ),
               SizedBox(
-                height: 10,
+                height: 12,
               ),
               RaisedButton(
                 child: Text('Submit'),
@@ -199,7 +199,7 @@ class _FeedbackPageState extends State<FeedbackPage> {
                 onPressed: () {_uploadFile();},
               ),
               SizedBox(
-                height: 10,
+                height: 12,
               ),
             ],
           ),
